@@ -1,0 +1,86 @@
+*:not(dialog, button) {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid green;
+}
+
+button {
+  color: #fff;
+  font-weight: 600;
+  border: none;
+}
+
+input,
+select,
+button {
+  outline: none;
+  border-width: 1px;
+  padding: 5px 12px;
+  border-radius: 8px;
+}
+
+.btnSec {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid green;
+}
+.btnSec button {
+  width: 80%;
+}
+
+.btnOpenAddModal,
+.btnYes,
+.btnCon button:first-child,
+.btnEdit {
+  background: blue;
+}
+
+.sec {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnDel,
+.btnNo,
+.btnCloseAdd,
+.btnCloseEdit {
+  background: red;
+}
+
+.btnCon {
+  padding: 5px 0;
+  display: flex;
+  gap: 10px;
+}
+.btnCon button {
+  width: 100%;
+}
+
+dialog {
+  border: none;
+  border-radius: 5px;
+}
+
+.block2 {
+  display: flex;
+  gap: 10px;
+}
+
+.btnX {
+  display: flex;
+  justify-content: end;
+}
+.btnX .btnExitAdd {
+  font-size: 18px;
+  font-weight: 600;
+  background: transparent;
+  color: black;
+}
